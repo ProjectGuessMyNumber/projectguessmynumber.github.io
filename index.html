@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="hightrident.ico">
+    <title>Guess My Number!!! - Lab 19.1</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <div class="top-section">
+        <button type="button" class="btn again">Again!</button>
+        <p>(Between 1 and 10.000)</p>
+        
+      </div>
+    </div>
+    <div id="container">
+      <div class="main-section">
+        <h1>Guess My Number!</h1>
+        <p class="hints">Hint: The mysterious numbers always belong to my wife | Coold (Author)</p>
+        <div class="number score">?</div>
+      </div>
+    </div>
+    <div id="container">
+      <div class="notification">Hello~</div>
+      <div class="input-subtitle-section">
+        <input class="input" type="number" min="0"
+        max="10000" placeholder="Type Here!"></input>
+        <p class="subtitle">[ Current Mode : Casual ]</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="bottom-section">
+        <button type="button" class="btn check">Check!</button>
+      </div>
+      <div class="value">
+        <div class="attempts">Attempts : <span class="attempts-value">0</span></div>
+        <div class="l-attempts">Lowest Attempts : <span class="l-attempts-value">0</span></div>
+      </div>
+    </div>
+    
+  <script src="scripts.js"></script>
+  </body>
+</html>
